@@ -1,0 +1,44 @@
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 60px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav li {
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav > ul > li  {
+    padding: 0px 10px;
+    overflow: hidden;
+    color: gray;
+    flex:1 1 auto;
+}
+
+nav > ul > li> a {
+    display: block;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+	
+}
